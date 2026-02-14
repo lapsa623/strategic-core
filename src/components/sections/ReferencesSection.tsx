@@ -5,7 +5,7 @@ const placeholderLogos = [
   "PORSCHE",
   "VOLKSWAGEN",
   "GARRETT SVK",
-  "PrecisionDrive",
+  "AAS AUTOMOTIVE",
   "SupplyChain CZ",
 ];
 
