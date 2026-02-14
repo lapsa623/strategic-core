@@ -1,5 +1,6 @@
 import FadeInSection from "@/components/FadeInSection";
 import { Globe, Award, Briefcase } from "lucide-react";
+import portrait from "@/assets/portrait.png";
 
 const tags = [
   { icon: Globe, text: "Němčina C1 · Angličtina B2" },
@@ -42,13 +43,8 @@ const AboutSection = () => (
 
         <FadeInSection delay={200}>
           <div className="relative">
-            <div className="aspect-[4/5] bg-secondary rounded-sm border border-border flex items-center justify-center">
-              <div className="text-center text-muted-foreground">
-                <div className="w-20 h-20 mx-auto mb-4 rounded-full bg-muted flex items-center justify-center">
-                  <span className="text-2xl font-bold text-primary">JL</span>
-                </div>
-                <p className="text-sm">Profesní portrét</p>
-              </div>
+            <div className="aspect-[4/5] rounded-sm border border-border overflow-hidden">
+              <img src={portrait} alt="Jan Lapšanský – profesní portrét" className="w-full h-full object-cover" />
             </div>
             {/* Decorative line */}
             <div className="absolute -bottom-4 -right-4 w-32 h-32 border border-light-blue/20 rounded-sm -z-10" />
