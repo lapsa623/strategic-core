@@ -32,9 +32,9 @@ const Navbar = () => {
         scrolled ? "bg-background/95 backdrop-blur-sm border-b border-border shadow-sm" : "bg-transparent"
       }`}
     >
-      <div className="max-w-7xl mx-auto px-6 lg:px-8 flex items-center justify-between h-28">
+      <div className="max-w-7xl mx-auto px-6 lg:px-8 flex items-center justify-between h-32">
         <button onClick={() => scrollTo("#hero")}>
-          <img src={logo} alt="IMCJL - Interim Management & Consulting" className="h-24" />
+          <img src={logo} alt="IMCJL - Interim Management & Consulting" className="h-28" />
         </button>
 
         {/* Desktop */}
