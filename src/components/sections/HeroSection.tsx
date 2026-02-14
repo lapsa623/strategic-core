@@ -31,18 +31,18 @@ const HeroSection = () => {
         <div className="max-w-3xl">
           <div className="w-16 h-px bg-light-blue mb-8" />
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight tracking-tight text-primary mb-6">
-            Transforming Operations.
+            Transformace provozu.
             <br />
-            Stabilizing Performance.
+            Stabilizace výkonu.
             <br />
-            Delivering Results.
+            Dosažení výsledků.
           </h1>
           <p className="text-lg sm:text-xl text-muted-foreground max-w-2xl mb-10 leading-relaxed">
-            Interim Management & Consulting for complex logistics and automotive environments.
+            Interim Management & Consulting pro komplexní logistické a automobilové prostředí.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Button size="lg" onClick={() => scrollTo("#contact")} className="text-base px-8">
-              Discuss Your Situation
+              Projednejme vaši situaci
             </Button>
             <Button
               variant="outline"
@@ -50,7 +50,7 @@ const HeroSection = () => {
               onClick={() => scrollTo("#results")}
               className="text-base px-8 border-primary/20 hover:border-primary/40"
             >
-              View Case Experience
+              Zobrazit případové studie
             </Button>
           </div>
         </div>

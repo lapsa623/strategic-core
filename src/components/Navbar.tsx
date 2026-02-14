@@ -4,10 +4,10 @@ import logo from "@/assets/logo.png";
 import { Menu, X } from "lucide-react";
 
 const navLinks = [
-  { label: "Positioning", href: "#positioning" },
-  { label: "Results", href: "#results" },
-  { label: "About", href: "#about" },
-  { label: "Engagement", href: "#engagement" },
+  { label: "Pozice", href: "#positioning" },
+  { label: "Výsledky", href: "#results" },
+  { label: "O mně", href: "#about" },
+  { label: "Spolupráce", href: "#engagement" },
 ];
 
 const Navbar = () => {
@@ -49,7 +49,7 @@ const Navbar = () => {
             </button>
           ))}
           <Button size="sm" onClick={() => scrollTo("#contact")}>
-            Discuss Your Situation
+            Projednejme vaši situaci
           </Button>
         </div>
 
@@ -72,7 +72,7 @@ const Navbar = () => {
             </button>
           ))}
           <Button size="sm" className="w-full" onClick={() => scrollTo("#contact")}>
-            Discuss Your Situation
+            Projednejme vaši situaci
           </Button>
         </div>
       )}

@@ -3,21 +3,21 @@ import FadeInSection from "@/components/FadeInSection";
 const phases = [
   {
     phase: "01",
-    title: "Rapid Assessment",
-    duration: "2–4 weeks",
-    desc: "Situation analysis, stakeholder mapping, immediate stabilization measures, and action plan delivery.",
+    title: "Rychlé posouzení",
+    duration: "2–4 týdny",
+    desc: "Analýza situace, mapování stakeholderů, okamžitá stabilizační opatření a dodání akčního plánu.",
   },
   {
     phase: "02",
-    title: "Stabilization Phase",
-    duration: "3–6 months",
-    desc: "Process restructuring, KPI implementation, team alignment, and governance frameworks.",
+    title: "Fáze stabilizace",
+    duration: "3–6 měsíců",
+    desc: "Restrukturalizace procesů, implementace KPI, sladění týmu a rámce governance.",
   },
   {
     phase: "03",
-    title: "Structured Transformation",
-    duration: "6–12 months",
-    desc: "System implementation, organizational change management, and sustainable performance architecture.",
+    title: "Strukturovaná transformace",
+    duration: "6–12 měsíců",
+    desc: "Implementace systémů, řízení organizačních změn a udržitelná architektura výkonu.",
   },
 ];
 
@@ -28,7 +28,7 @@ const EngagementSection = () => (
         <div className="max-w-3xl mb-16">
           <div className="w-10 h-px bg-light-blue mb-6" />
           <h2 className="text-3xl sm:text-4xl font-bold text-primary tracking-tight">
-            How I Engage
+            Jak spolupracuji
           </h2>
         </div>
       </FadeInSection>
@@ -42,7 +42,7 @@ const EngagementSection = () => (
               }`}
             >
               <span className="text-xs font-semibold text-light-blue tracking-widest uppercase">
-                Phase {p.phase}
+                Fáze {p.phase}
               </span>
               <h3 className="text-xl font-bold text-primary mt-3 mb-2">{p.title}</h3>
               <p className="text-sm text-light-blue font-medium mb-4">{p.duration}</p>

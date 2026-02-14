@@ -2,10 +2,10 @@ import FadeInSection from "@/components/FadeInSection";
 import { AlertTriangle, Truck, Monitor, Users } from "lucide-react";
 
 const pains = [
-  { icon: Truck, text: "Delivery instability across multi-site operations" },
-  { icon: AlertTriangle, text: "Escalations in automotive supply chains" },
-  { icon: Monitor, text: "ERP or 3PL transitions under pressure" },
-  { icon: Users, text: "Leadership gaps during transformation" },
+  { icon: Truck, text: "Nestabilita dodávek napříč více provozovnami" },
+  { icon: AlertTriangle, text: "Eskalace v automobilových dodavatelských řetězcích" },
+  { icon: Monitor, text: "Přechody ERP nebo 3PL pod tlakem" },
+  { icon: Users, text: "Mezery ve vedení během transformace" },
 ];
 
 const ProblemSection = () => (
@@ -15,7 +15,7 @@ const ProblemSection = () => (
         <div className="max-w-3xl mb-14">
           <div className="w-10 h-px bg-light-blue mb-6" />
           <h2 className="text-3xl sm:text-4xl font-bold text-primary mb-6 tracking-tight">
-            When Performance Slips, Structure Fails
+            Když výkon klesá, struktura selhává
           </h2>
         </div>
       </FadeInSection>
@@ -34,7 +34,7 @@ const ProblemSection = () => (
       <FadeInSection delay={400}>
         <div className="border-l-2 border-light-blue pl-6">
           <p className="text-lg font-semibold text-primary italic">
-            Structured intervention. Clear governance. Measurable impact.
+            Strukturovaný zásah. Jasná governance. Měřitelný dopad.
           </p>
         </div>
       </FadeInSection>
