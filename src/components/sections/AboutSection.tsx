@@ -44,7 +44,7 @@ const AboutSection = () =>
         <FadeInSection delay={200}>
           <div className="relative">
             <div className="aspect-[4/5] rounded-sm border border-border overflow-hidden">
-              <img alt="Jan Lapšanský – profesní portrét" className="w-full h-full object-cover" src="/lovable-uploads/19dcf019-01af-40cc-aff3-4c7ad7c24928.png" />
+              <img alt="Jan Lapšanský – profesní portrét" className="w-full h-full object-cover" src="/lovable-uploads/3e8bba3b-4e3d-49f0-8b49-c0db8b680a2b.png" />
             </div>
             {/* Decorative line */}
             <div className="absolute -bottom-4 -right-4 w-32 h-32 border border-light-blue/20 rounded-sm -z-10" />
