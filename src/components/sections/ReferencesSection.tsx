@@ -4,7 +4,7 @@ const placeholderLogos = [
   "ŠKODA AUTO",
   "PORSCHE",
   "VOLKSWAGEN",
-  "EuroCargo s.r.o.",
+  "GARRETT SVK",
   "PrecisionDrive",
   "SupplyChain CZ",
 ];
