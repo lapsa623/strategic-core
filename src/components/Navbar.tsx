@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
+import logo from "@/assets/logo.png";
 import { Menu, X } from "lucide-react";
 
 const navLinks = [
@@ -32,8 +33,8 @@ const Navbar = () => {
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-8 flex items-center justify-between h-16">
-        <button onClick={() => scrollTo("#hero")} className="text-lg font-bold tracking-tight text-primary">
-          IMCJL
+        <button onClick={() => scrollTo("#hero")}>
+          <img src={logo} alt="IMCJL - Interim Management & Consulting" className="h-10" />
         </button>
 
         {/* Desktop */}
