@@ -2,7 +2,7 @@ import FadeInSection from "@/components/FadeInSection";
 
 const placeholderLogos = [
   "ŠKODA AUTO",
-  "LogiTrans GmbH",
+  "PORSCHE",
   "TechParts AG",
   "EuroCargo s.r.o.",
   "PrecisionDrive",
