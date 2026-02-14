@@ -2,9 +2,9 @@ import FadeInSection from "@/components/FadeInSection";
 import { Globe, Award, Briefcase } from "lucide-react";
 
 const tags = [
-  { icon: Globe, text: "German C1 · English B2" },
-  { icon: Award, text: "Automotive Tier 1 & 2 Experience" },
-  { icon: Briefcase, text: "Project Leadership & Governance" },
+  { icon: Globe, text: "Němčina C1 · Angličtina B2" },
+  { icon: Award, text: "Zkušenosti s Automotive Tier 1 & 2" },
+  { icon: Briefcase, text: "Projektové vedení & Governance" },
 ];
 
 const AboutSection = () => (
@@ -18,13 +18,13 @@ const AboutSection = () => (
               Jan Lapšanský
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              Interim Manager specializing in logistics, automotive supply chains, and operational
-              transformation. Experienced in crisis environments, system implementations, and
-              structured performance recovery.
+              Interim manažer specializující se na logistiku, automobilové dodavatelské řetězce
+              a operační transformaci. Zkušenosti v krizovém prostředí, implementaci systémů
+              a strukturované obnově výkonu.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-8">
-              Operating across the DACH region, Czech Republic, and Slovakia — delivering
-              measurable results at management and board level.
+              Působím v regionu DACH, České republice a na Slovensku — s měřitelnými výsledky
+              na úrovni managementu a představenstva.
             </p>
 
             <div className="space-y-4">
@@ -47,7 +47,7 @@ const AboutSection = () => (
                 <div className="w-20 h-20 mx-auto mb-4 rounded-full bg-muted flex items-center justify-center">
                   <span className="text-2xl font-bold text-primary">JL</span>
                 </div>
-                <p className="text-sm">Professional Portrait</p>
+                <p className="text-sm">Profesní portrét</p>
               </div>
             </div>
             {/* Decorative line */}

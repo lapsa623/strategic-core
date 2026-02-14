@@ -2,10 +2,10 @@ import { useEffect, useRef, useState } from "react";
 import FadeInSection from "@/components/FadeInSection";
 
 const metrics = [
-  { value: 30, suffix: "%", label: "Reduction in escalation cases" },
-  { value: 90, suffix: " days", label: "Stabilized launch performance" },
-  { value: 3, suffix: " countries", label: "Cross-border coordination (DACH / CZ / SK)" },
-  { value: 50, suffix: "+", label: "Team members led simultaneously" },
+  { value: 30, suffix: "%", label: "Snížení eskalačních případů" },
+  { value: 90, suffix: " dní", label: "Stabilizace výkonu při náběhu" },
+  { value: 3, suffix: " země", label: "Přeshraniční koordinace (DACH / CZ / SK)" },
+  { value: 50, suffix: "+", label: "Současně vedených členů týmu" },
 ];
 
 const AnimatedCounter = ({ target, suffix }: { target: number; suffix: string }) => {
@@ -53,7 +53,7 @@ const ResultsSection = () => (
       <FadeInSection>
         <div className="mb-16">
           <div className="w-10 h-px bg-light-blue mb-6" />
-          <h2 className="text-3xl sm:text-4xl font-bold tracking-tight">Measured Impact</h2>
+          <h2 className="text-3xl sm:text-4xl font-bold tracking-tight">Měřitelný dopad</h2>
         </div>
       </FadeInSection>
 

@@ -4,18 +4,18 @@ import { Shield, TrendingUp, Settings } from "lucide-react";
 const pillars = [
   {
     icon: Shield,
-    title: "Crisis Stabilization",
-    desc: "Rapid containment of operational disruption. Clear governance from day one.",
+    title: "Stabilizace krizí",
+    desc: "Rychlé zvládnutí provozních narušení. Jasná governance od prvního dne.",
   },
   {
     icon: TrendingUp,
-    title: "Operational Transformation",
-    desc: "Structured performance recovery across logistics and supply chain environments.",
+    title: "Operační transformace",
+    desc: "Strukturovaná obnova výkonu v logistickém a dodavatelském prostředí.",
   },
   {
     icon: Settings,
-    title: "Project & System Implementation",
-    desc: "ERP, WMS, and 3PL transitions executed under pressure with measurable milestones.",
+    title: "Implementace projektů a systémů",
+    desc: "Přechody ERP, WMS a 3PL realizované pod tlakem s měřitelnými milníky.",
   },
 ];
 
@@ -26,12 +26,12 @@ const PositioningSection = () => (
         <div className="max-w-3xl mb-16">
           <div className="w-10 h-px bg-light-blue mb-6" />
           <h2 className="text-3xl sm:text-4xl font-bold text-primary mb-6 tracking-tight">
-            Interim Leadership When It Matters Most
+            Interim vedení, když na tom nejvíce záleží
           </h2>
           <p className="text-lg text-muted-foreground leading-relaxed">
-            I step into complex operational environments to stabilize performance, restore control,
-            and implement structured transformation. From crisis containment to long-term optimization,
-            I operate at management and board level.
+            Vstupuji do složitých provozních prostředí, abych stabilizoval výkon, obnovil kontrolu
+            a implementoval strukturovanou transformaci. Od krizového řízení po dlouhodobou optimalizaci
+            působím na úrovni managementu a představenstva.
           </p>
         </div>
       </FadeInSection>
