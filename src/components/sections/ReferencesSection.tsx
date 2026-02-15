@@ -6,7 +6,7 @@ const placeholderLogos = [
   "VOLKSWAGEN",
   "GARRETT SVK",
   "AAS AUTOMOTIVE",
-  "SupplyChain CZ",
+  "MARELLI CZ",
 ];
 
 const ReferencesSection = () => {
